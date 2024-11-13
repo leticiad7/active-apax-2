@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CCDBD5042CE424D200D5CFA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCDBD4E92CE424CF00D5CFA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCDBD4F02CE424CF00D5CFA8;
+			remoteInfo = "active-apax-2";
+		};
+		CCDBD50E2CE424D200D5CFA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCDBD4E92CE424CF00D5CFA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCDBD4F02CE424CF00D5CFA8;
+			remoteInfo = "active-apax-2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCDBD4F12CE424D000D5CFA8 /* active-apax-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "active-apax-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDBD5032CE424D200D5CFA8 /* active-apax-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "active-apax-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDBD50D2CE424D200D5CFA8 /* active-apax-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "active-apax-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CCDBD4F32CE424D000D5CFA8 /* active-apax-2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "active-apax-2";
+			sourceTree = "<group>";
+		};
+		CCDBD5062CE424D200D5CFA8 /* active-apax-2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "active-apax-2Tests";
+			sourceTree = "<group>";
+		};
+		CCDBD5102CE424D200D5CFA8 /* active-apax-2UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "active-apax-2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCDBD4EE2CE424CF00D5CFA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDBD5002CE424D200D5CFA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDBD50A2CE424D200D5CFA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCDBD4E82CE424CF00D5CFA8 = {
+			isa = PBXGroup;
+			children = (
+				CCDBD4F32CE424D000D5CFA8 /* active-apax-2 */,
+				CCDBD5062CE424D200D5CFA8 /* active-apax-2Tests */,
+				CCDBD5102CE424D200D5CFA8 /* active-apax-2UITests */,
+				CCDBD4F22CE424D000D5CFA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCDBD4F22CE424D000D5CFA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCDBD4F12CE424D000D5CFA8 /* active-apax-2.app */,
+				CCDBD5032CE424D200D5CFA8 /* active-apax-2Tests.xctest */,
+				CCDBD50D2CE424D200D5CFA8 /* active-apax-2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCDBD4F02CE424CF00D5CFA8 /* active-apax-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDBD5172CE424D200D5CFA8 /* Build configuration list for PBXNativeTarget "active-apax-2" */;
+			buildPhases = (
+				CCDBD4ED2CE424CF00D5CFA8 /* Sources */,
+				CCDBD4EE2CE424CF00D5CFA8 /* Frameworks */,
+				CCDBD4EF2CE424CF00D5CFA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CCDBD4F32CE424D000D5CFA8 /* active-apax-2 */,
+			);
+			name = "active-apax-2";
+			packageProductDependencies = (
+			);
+			productName = "active-apax-2";
+			productReference = CCDBD4F12CE424D000D5CFA8 /* active-apax-2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCDBD5022CE424D200D5CFA8 /* active-apax-2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDBD51A2CE424D200D5CFA8 /* Build configuration list for PBXNativeTarget "active-apax-2Tests" */;
+			buildPhases = (
+				CCDBD4FF2CE424D200D5CFA8 /* Sources */,
+				CCDBD5002CE424D200D5CFA8 /* Frameworks */,
+				CCDBD5012CE424D200D5CFA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCDBD5052CE424D200D5CFA8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CCDBD5062CE424D200D5CFA8 /* active-apax-2Tests */,
+			);
+			name = "active-apax-2Tests";
+			packageProductDependencies = (
+			);
+			productName = "active-apax-2Tests";
+			productReference = CCDBD5032CE424D200D5CFA8 /* active-apax-2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCDBD50C2CE424D200D5CFA8 /* active-apax-2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDBD51D2CE424D200D5CFA8 /* Build configuration list for PBXNativeTarget "active-apax-2UITests" */;
+			buildPhases = (
+				CCDBD5092CE424D200D5CFA8 /* Sources */,
+				CCDBD50A2CE424D200D5CFA8 /* Frameworks */,
+				CCDBD50B2CE424D200D5CFA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCDBD50F2CE424D200D5CFA8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CCDBD5102CE424D200D5CFA8 /* active-apax-2UITests */,
+			);
+			name = "active-apax-2UITests";
+			packageProductDependencies = (
+			);
+			productName = "active-apax-2UITests";
+			productReference = CCDBD50D2CE424D200D5CFA8 /* active-apax-2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCDBD4E92CE424CF00D5CFA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					CCDBD4F02CE424CF00D5CFA8 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					CCDBD5022CE424D200D5CFA8 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CCDBD4F02CE424CF00D5CFA8;
+					};
+					CCDBD50C2CE424D200D5CFA8 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CCDBD4F02CE424CF00D5CFA8;
+					};
+				};
+			};
+			buildConfigurationList = CCDBD4EC2CE424CF00D5CFA8 /* Build configuration list for PBXProject "active-apax-2" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCDBD4E82CE424CF00D5CFA8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CCDBD4F22CE424D000D5CFA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCDBD4F02CE424CF00D5CFA8 /* active-apax-2 */,
+				CCDBD5022CE424D200D5CFA8 /* active-apax-2Tests */,
+				CCDBD50C2CE424D200D5CFA8 /* active-apax-2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCDBD4EF2CE424CF00D5CFA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDBD5012CE424D200D5CFA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDBD50B2CE424D200D5CFA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCDBD4ED2CE424CF00D5CFA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDBD4FF2CE424D200D5CFA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDBD5092CE424D200D5CFA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCDBD5052CE424D200D5CFA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCDBD4F02CE424CF00D5CFA8 /* active-apax-2 */;
+			targetProxy = CCDBD5042CE424D200D5CFA8 /* PBXContainerItemProxy */;
+		};
+		CCDBD50F2CE424D200D5CFA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCDBD4F02CE424CF00D5CFA8 /* active-apax-2 */;
+			targetProxy = CCDBD50E2CE424D200D5CFA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CCDBD5152CE424D200D5CFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCDBD5162CE424D200D5CFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCDBD5182CE424D200D5CFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"active-apax-2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ldomingos.active-apax-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCDBD5192CE424D200D5CFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"active-apax-2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ldomingos.active-apax-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCDBD51B2CE424D200D5CFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ldomingos.active-apax-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/active-apax-2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/active-apax-2";
+			};
+			name = Debug;
+		};
+		CCDBD51C2CE424D200D5CFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ldomingos.active-apax-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/active-apax-2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/active-apax-2";
+			};
+			name = Release;
+		};
+		CCDBD51E2CE424D200D5CFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ldomingos.active-apax-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "active-apax-2";
+			};
+			name = Debug;
+		};
+		CCDBD51F2CE424D200D5CFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ldomingos.active-apax-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "active-apax-2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCDBD4EC2CE424CF00D5CFA8 /* Build configuration list for PBXProject "active-apax-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDBD5152CE424D200D5CFA8 /* Debug */,
+				CCDBD5162CE424D200D5CFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCDBD5172CE424D200D5CFA8 /* Build configuration list for PBXNativeTarget "active-apax-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDBD5182CE424D200D5CFA8 /* Debug */,
+				CCDBD5192CE424D200D5CFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCDBD51A2CE424D200D5CFA8 /* Build configuration list for PBXNativeTarget "active-apax-2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDBD51B2CE424D200D5CFA8 /* Debug */,
+				CCDBD51C2CE424D200D5CFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCDBD51D2CE424D200D5CFA8 /* Build configuration list for PBXNativeTarget "active-apax-2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDBD51E2CE424D200D5CFA8 /* Debug */,
+				CCDBD51F2CE424D200D5CFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCDBD4E92CE424CF00D5CFA8 /* Project object */;
+}

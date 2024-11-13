@@ -1,3 +1,4 @@
+// MainView.swift
 import SwiftUI
 
 struct MainView: View {
@@ -7,6 +8,7 @@ struct MainView: View {
     @AppStorage("gender") private var gender = "Select Gender"
     
     @State private var idealStats: [String: String] = [:]
+    @State private var showingProgressTracking = false
 
     var body: some View {
         VStack {
@@ -28,9 +30,23 @@ struct MainView: View {
                     }
                 }
             }
+            .padding()
+            
+            Button(action: {
+                showingProgressTracking = true
+            }) {
+                Text("Track Your Progress")
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.blue)
+                    .cornerRadius(8)
+            }
+            .padding(.top, 20)
+            .fullScreenCover(isPresented: $showingProgressTracking) {
+                ProgressTrackingView(idealStats: idealStats)
+            }
         }
-        .padding()
-        .onAppear(perform: calculateIdealStats) // Calculate stats when view appears
+        .onAppear(perform: calculateIdealStats)
     }
 
     private func calculateIdealStats() {
